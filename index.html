@@ -3,27 +3,16 @@
   <head>
     <title>Simple Map</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <style type="text/css">
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 50%;
-        width: 50%;
-        text-align: center;
-        position: fixed;
-      }
-
-      /* Optional: Makes the sample page fill the window. */
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
     <div id="map"></div>
+    <form class="" action="/" method="post">
+      <input type="text" name="fishType" placeholder="Type of Fish">
+      <input type="number" name="weight" placeholder="Weight" >
+      <input type="text" name="angler" value="Angler">
+      <button type="submit" name="button">Submit</button>
+    </form>
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script

@@ -9,16 +9,6 @@ def get_exif(filename):
 
 exif = get_exif('images/IMG_2983.jpg')
 
-def get_labeled_exif(exif):
-    labeled = {}
-    for (key, val) in exif.items():
-        labeled[TAGS.get(key)] = val
-
-    return labeled
-
-exif = get_exif('images/IMG_2983.jpg')
-labeled = get_labeled_exif(exif)
-
 def get_geotagging(exif):
     if not exif:
         raise ValueError("No EXIF metadata found")

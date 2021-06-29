@@ -1,0 +1,33 @@
+h1 { 
+    text-align: center;
+    
+}
+
+.page-header-ui {
+    position: relative;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    opacity: .60;
+}
+.overlay {
+    position: relative;
+}
+.bg-img-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-header-ui-dark {
+    color: #fff;
+    background-color: #212832;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px;
+}
+
+.cards{
+    padding: 30px;
+}
